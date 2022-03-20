@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15;
+}
+h1{
+    font-size : 40px;
+}
+
+h2{
+    color : rgb(214, 123, 19);
+    font-size : 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align:justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+}
+h1, h3 {
+    color : green;
+    font-family: cursive;
+}
