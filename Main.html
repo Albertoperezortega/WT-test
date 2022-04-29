@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> QUIZUM </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="intro">
+            <center>
+            <div class="title"><p> QUIZUM </p></div>
+            </center>
+
+            <!--    Rules   -->
+
+            <center>
+            <div class="instructions">
+                <div class="inst_title">
+                    <h2> Instrucions </h2>
+                </div>
+                <div class="inst_lines">
+                    <li> 1. Read the question + answers</li>
+                    <li> 2. Read the amount of points available for that question</li>
+                    <li> 3. Assign the number of points you want to each answer</li>
+                    <li> 4. You will receive the amount of points you assign under correct answer </li>
+                    <li> 5. Enjoy!! </li>
+                </div>
+            </div>
+
+            <!-- Buttons-->
+
+            <div class="play_btn"><button > Start</button></div>
+            <div class="leader_btn"><button> Leader Board</button></div>
+            </center>
+        </div>
+        <!-- Interface -->
+        <div class="inter">
+            <div class="inter_time">
+                <div class="time_title"> TIME : </div>
+                <div class="time_amount"> 10 </div>
+            </div>
+            <div class="inter_score">
+
+            </div>
+        </div>
+        <!-- Questions -->
+
+        <div class="quest">
+            <div class="line"></div>
+            <center>
+            <div class="quest1_question">
+
+            </div>
+            </center>
+            <div class="quest1_points">
+
+            </div>
+            <div class="quest1_answer">
+                <div class="quest1_a"></div>
+                <div class="quest1_b"></div>
+            </div>
+            <div class="quest1_input_a">
+                <label for="quest1_input_a"> </label>
+                <input id="quest1_input_a" name="quest1_input_a" type="number" step="5" max="100" min="0">
+            </div>
+            <div class="quest1_input_b">
+                <label for="quest1_input_b"> </label>
+                <input id="quest1_input_b" name="quest1_input_b" type="number" step="5" max="100" min="0">
+            </div>
+            <div>
+                <form>
+
+                </form>
+            </div>
+            <div class="error"> Wrong amount inputed</div>
+            <div class="next">
+                <div class="next_btn"><button> Confirm Answer</button></div>
+            </div>
+        </div>
+
+        
+
+        <!-- Final Page -->
+        <center>
+        <div class="final">
+            <div class="final_title"> CONGRATULATIONS!</div>
+            <div class="final_score_text"> YOUR TOTAL SCORE IS:</div>
+            <div class="final_score_num"> 0</div>
+            <div class="return_btn">
+                <button> MAIN MENU</button>
+            </div>
+            <div class="box"></div>
+        </div>
+        </center>
+            
+        
+
+        
+
+        <script src="script.js"></script>
+        <script src="questions.js"></script>
+    </body>
+</html>
