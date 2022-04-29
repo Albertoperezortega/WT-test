@@ -1,1 +1,1 @@
-# WEb Technologies
+# Web Technologies
